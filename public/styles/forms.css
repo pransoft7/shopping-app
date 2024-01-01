@@ -1,0 +1,19 @@
+form hr{
+    border-color: var(--color-primary-200);
+    margin: var(--space-4);
+}
+
+label {
+    display: block;
+    margin-bottom: var(--space-2);
+    color: var(--color-gray-100);
+}
+
+input, textarea {
+    width: 90%;
+    border: none;
+    border-radius: var(--border-radius-small);
+    font: inherit;
+    padding: var(--space-2);
+    background-color: var(--color-gray-100);
+}
