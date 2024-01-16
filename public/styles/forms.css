@@ -17,3 +17,20 @@ input, textarea {
     padding: var(--space-2);
     background-color: var(--color-gray-100);
 }
+
+#image-upload {
+    display: flex;
+    align-items: center;
+}
+
+#image-upload input {
+    max-width: 15rem;
+}
+
+#image-upload img {
+    display: none;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover; /* Scale the image to cover the entire element */
+    border-radius: var(--border-radius-small);
+}
